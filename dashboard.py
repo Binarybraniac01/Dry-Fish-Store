@@ -189,7 +189,7 @@ class Dashboardcls(Tk):
         self.geometry(f"{self.width}x{self.height}+{43}+{5}")
 
     def set_heading_label(self):
-        self.heading_label = Label(self, text="Premium Dry Fish Store", font=("Times New Roman", 28, "bold"), bd=4, relief=RIDGE,
+        self.heading_label = Label(self, text="Dry Fish Store", font=("Times New Roman", 28, "bold"), bd=4, relief=RIDGE,
                               height=2, bg="#F5F5F5")
         self.heading_label.pack(fill="x")
 
